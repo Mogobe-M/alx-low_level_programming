@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(void)
+int main()
 {
   //string initialisation
   char Mystr[] = "Programming is like building a multilingual puzzle";
