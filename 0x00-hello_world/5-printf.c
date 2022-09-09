@@ -1,9 +1,8 @@
 #include<stdio.h>
-int main(void)
+int main()
 {
-  //string initialisation
-  char Mystr[] = "with proper grammar, but the outcome is a piece of art,";
+  printf("with proper grammar, but the outcome is a piece of art,\n");
 
-  printf(Mystr); //writing the string to stdout
-
+ 
   return 0;
+}
