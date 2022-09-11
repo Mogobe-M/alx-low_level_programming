@@ -8,7 +8,7 @@
  *Return 0
  **/
 
-int main(void)
+int main (void)
 {
   	char ch = 'a';
 	
@@ -18,5 +18,6 @@ int main(void)
 	  ch++;
 	}
 	
-	return(0);
+	return (0);
+
 }
