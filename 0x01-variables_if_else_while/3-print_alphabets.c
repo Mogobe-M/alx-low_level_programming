@@ -1,25 +1,27 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 /**
- *main-
- *discription
- *returns 0
+ *File: 3-print_alphabets.c
+ *Auth: Mogobe Monoge
  **/
 
-int main()
+#include <stdio.h>
+
+/**
+ *main - prints the alphabet in lowercase
+ *return: 0
+ **/
+
+int main(void)
 {
-  int ch;
-  int ch =97
-    /*for lowercase alphabets*/
-    for (ch 97; ch <= 122; ch++)
-      {
-       putchar(ch);
-      }
-	/*for uppercase alphabets*/
-    for (capch =65; capch <= 90; capch++)
-      {
-       ptchar(capch);
-      }
-    return(0);
+	char letter;
+
+	for (letter= 'a'; letter <= 'z'; letter++)
+	  putchar(letter);
+	
+	for (letter= 'A'; letter <= 'A'; letter++)
+	  putchar(letter);
+
+	putchar('\n');
+
+	return (0);
+
 }
