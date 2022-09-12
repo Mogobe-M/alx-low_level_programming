@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 /**
- *main
+ *main-
  *discription
- *return 0
+ *returns 0
  **/
 
-int main(void)
+int main()
 {
-  char ch=a..z;
-    for(i='A'; i<='Z'; i++)
-      printf("%c",i);
-    for(i=)
+  int ch;
+  char ch =
+    return(0);
 }

@@ -1,31 +1,25 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-void main()
+/**
+ *main-
+ *discription
+ *returns 0
+ **/
 
+int main()
 {
-
   int ch;
-
-
-  clrscr();
-
-  printf(“Print all uppercase letters followed by all lowercase letters on the next line :\n”);
-
-  /* print lowercase letters */
-
-  for (ch= ‘a’; ch<= ‘z’; ch++)
-
-    putchar(ch);
-
-  putchar (‘\n’) ;
-  
-  /* print uppercase letters */
-
-  for (ch= ‘A’; ch<= ‘Z’; ch++)
-
-    putchar(ch);
-
-  putchar (‘\n’ ) ;
-  getch();
-
+  int ch =97
+    /*for lowercase alphabets*/
+    for (ch 97; ch <= 122; ch++)
+      {
+       putchar(ch);
+      }
+	/*for uppercase alphabets*/
+    for (capch =65; capch <= 90; capch++)
+      {
+       ptchar(capch);
+      }
+    return(0);
 }
