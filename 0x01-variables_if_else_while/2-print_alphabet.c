@@ -1,21 +1,22 @@
+/**
+ *File: 2-print_alphabet.c
+ *Auth: Mogobe Monoge 
+ **/
+
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- *Main- print lowercase alphabets
- *Discription: the code is in the main function
- *This program prints "lowercase alphabets"
- *Return 0
+ *main- print lowercase alphabets
+ *discription: the code is in the main function
+ *Return: 0
  **/
 int main(void){
-  
-	char ch = 'a';
-	
-	while (ch <= 'z')
-	  {
-	    printf("%c", ch);
-	    ch++;
-	  }
+
+	char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
+	  putchar(letter); 	  
+
+	putchar('\n');
 	
 	return (0);
 
