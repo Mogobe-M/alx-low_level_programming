@@ -8,11 +8,13 @@
   *Return 0
   **/
 
-int main(void){
-	int n;
+int main(void)
+{
+
+  int n;
 
 	srand(time(0));
-	n = srand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	/*source code goes here*/
 
 	if (n > 0)
@@ -23,7 +25,7 @@ int main(void){
 	  {
 	    printf("Last digit of n is %d is zero\n", n);
 	  }
-	else if (n != 0, n > 6)
+	else if ( n < 6)
 	  {
 	    printf("Last digit of n is %d and is less than 6 and not 0\n", n);
 	  }

@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ *main
+ *discription
+ *return 0
+ **/
+
+int main(void)
+{
+  char ch=a..z;
+    for(i='A'; i<='Z'; i++)
+      printf("%c",i);
+    for(i=)
+}
