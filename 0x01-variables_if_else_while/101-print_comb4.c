@@ -6,22 +6,35 @@
 #include <stdio.h>
 
 /**
- * main - Lists all the natural numbers below 1024 (excluded)
- *        that are multiples of 3 or 5.
+ * main - Prints all possible combinations of three different digits,
+ *        in ascending order, separated by a comma followed by a space.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int i, sum = 0;
+	int digit1, digit2, digit3;
 
-	for (i = 0; i < 1024; i++)
+	for (digit1 = 0; digit1 < 8; digit1++)
 	{
-		if ((i % 3) == 0 || (i % 5) == 0)
-			sum += i;
+		for (digit2 = digit1 + 1; digit2 < 9; digit2++)
+		{
+			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
+			{
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
+
+				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
+					continue;
+
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
 
-	printf("%d\n", sum);
+	putchar('\n');
 
 	return (0);
 }

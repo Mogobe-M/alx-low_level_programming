@@ -5,45 +5,32 @@
 
 #include <stdio.h>
 
-	/**
-	 * print_times_table - Prints the times table of the input,
-	 *                     starting with 0.
-	 * @n: The value of the times table to be printed.
-	 */
-void print_times_table(int n)
+/**
+ * main - Prints all possible combinations of two different digits,
+ *        in ascending order, separated by a comma followed by a space.
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int num, mult, prod;
+	int digit1, digit2;
 
-	if (n >= 0 && n <= 15)
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		for (num = 0; num <= n; num++)
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{
-			putchar('0');
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
 
-			for (mult = 1; mult <= n; mult++)
-			{
-				putchar(',');
-				putchar(' ');
+			if (digit1 == 8 && digit2 == 9)
+				continue;
 
-				prod = num * mult;
-
-				if (prod <= 99)
-					putchar(' ');
-				if (prod <= 9)
-					putchar(' ');
-
-				if (prod >= 100)
-				{
-					putchar((prod / 100) + '0');
-					putchar(((prod / 10)) % 10 + '0');
-				}
-				else if (prod <= 99 && prod >= 10)
-				{
-					putchar((prod / 10) + '0');
-				}
-				putchar((prod % 10) + '0');
-			}
-			putchar('\n');
+			putchar(',');
+			putchar(' ');
 		}
 	}
+
+	putchar('\n');
+
+	return (0);
 }
