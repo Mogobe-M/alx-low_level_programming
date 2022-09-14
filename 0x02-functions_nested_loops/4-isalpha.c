@@ -1,6 +1,6 @@
 /**
  * File: 4-isalpha.c
- * Auth: Monoge M Mogobe
+ * Auth: Mogobe-M
  **/
 
 #include "stdio.h"

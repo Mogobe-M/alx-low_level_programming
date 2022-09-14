@@ -1,6 +1,6 @@
 /**
  * File: 3-islower.c
- * Auth: Brennan D Baraban
+ * Auth: Mogobe-M
  **/
 
 #include "stdio.h"
