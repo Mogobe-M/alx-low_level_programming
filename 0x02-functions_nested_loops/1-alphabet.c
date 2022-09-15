@@ -1,7 +1,7 @@
-/**
+/*
  * File: 1-alphabet.c
- * Auth: Mogobe-M
- **/
+ * Auth: Mogobe Monoge
+ */
 
 #include "main.h"
 
