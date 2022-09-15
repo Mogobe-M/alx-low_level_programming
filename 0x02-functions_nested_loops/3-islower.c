@@ -3,7 +3,7 @@
  * Auth: Mogobe-M
  **/
 
-#include "stdio.h"
+#include "main.h"
 
 /**
  * _islower - Checks if a character is lowercase.
@@ -11,7 +11,7 @@
  *
  * Return: 1 if character is lowercase, 0 otherwise.
  */
-int _islower(int c)
+int check_alphabet(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);

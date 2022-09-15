@@ -1,10 +1,10 @@
-/**
+/*
  * File: 0-holberton.c
  * Auth: Mogobe Monoge
  *
  */
 
-#include "main.h"
+#include "holberton.h"
 
 /**
  * main - Prints "Holberton" followed by a new line.
@@ -15,7 +15,7 @@ int main(void)
 {
 	_putchar('_');
 	_putchar('p');
-        _putchar('u');
+	_putchar('u');
 	_putchar('t');
 	_putchar('c');
 	_putchar('h');
