@@ -1,27 +1,28 @@
-/**
- * File: 8-print_base16.c
- * Auth: Mogobe M Monoge 
- **/
-
-#include <stdio.h>
-
-/**
- * main - Prints all the numbers of base 16 in lowercase.
- *
- * Return: Always 0.
+/*
+ * File: 8-24_hours.c
+ * Auth: Mogobe Monoge
  */
-int main(void)
+
+#include "main.h"
+
+/**
+ * jack_bauer - Prints every minute of the day of
+ *              Jack Bauer, starting from 00:00 to 23:59.
+ */
+void jack_bauer(void)
 {
-	int num;
-	char letter;
+	int hour, minute;
 
-	for (num = 0; num < 10; num++)
-		putchar((num % 10) + '0');
-
-	for (letter = 'a'; letter <= 'f'; letter++)
-		putchar(letter);
-
-	putchar('\n');
-
-	return (0);
+	for (hour = 0; hour <= 23; hour++)
+	{
+		for (minute = 0; minute <= 59; minute++)
+		{
+			_putchar((hour / 10) + '0');
+			_putchar((hour % 10) + '0');
+			_putchar(':');
+			_putchar((minute / 10) + '0');
+			_putchar((minute % 10) + '0');
+			_putchar('\n');
+		}
+	}
 }
