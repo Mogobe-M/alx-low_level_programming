@@ -1,9 +1,9 @@
-/**
+/*
  * File: 4-isalpha.c
- * Auth: Mogobe-M
- **/
+ * Auth: Mogobe Monoge 
+ */
 
-#include "stdio.h"
+#include "main.h"
 
 /**
  * _isalpha - Checks if a character is alphabetic.
