@@ -1,7 +1,7 @@
-/**
+/*
  * File: 5-sign.c
- * Auth: Mogobe M Monoge
- **/
+ * Auth: Mogobe Monoge
+ */
 
 #include "main.h"
 
