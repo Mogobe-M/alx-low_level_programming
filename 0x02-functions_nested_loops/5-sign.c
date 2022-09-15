@@ -3,7 +3,7 @@
  * Auth: Mogobe M Monoge
  **/
 
-#include "holberton.h"
+#include <stdio.h>
 
 /**
  * print_sign - Prints the sign of a number.
