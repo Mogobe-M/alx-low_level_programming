@@ -1,7 +1,7 @@
-/**
+/*
  * File: 2-print_alphabet_x10.c
- * Auth: Mogobe M Monoge
- **/
+ * Auth: Mogobe Monoge
+ */
 
 #include "main.h"
 
