@@ -1,5 +1,5 @@
 /*
- * File: 0-holberton.c
+ * File: _putchar.c
  * Auth: Mogobe Monoge
  *
  */
@@ -7,7 +7,7 @@
 #include "main.h"
 
 /**
- * main - Prints "Holberton" followed by a new line.
+ * main - Prints "_puthchar" followed by a new line.
  *
  * Return: Always 0.
  */
