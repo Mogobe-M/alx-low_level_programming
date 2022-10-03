@@ -1,13 +1,11 @@
 #include<stdio.h>
 /**
- *You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
- *Your program should return 1
- *Your program should compile without any warnings when using the -Wall gcc option
-
+ *discription: print the string in the put function
+ *this program prints "programming is like building a maltilingual puzzle"
+ *Return: 0 
  */
-
 int main(void)
 {
-  puts("\"Programming is like building a multilingual puzzle");
-  return 0;
+ puts("\"Programming is like building a multilingual puzzle");
+ return (0);
 }
