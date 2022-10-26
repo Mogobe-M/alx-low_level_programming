@@ -1,13 +1,7 @@
 #ifndef LISTS_H
 #define LISTS_H
 
-/*
- * File: lists.h
- * Auth: Mogobe M Monoge
- * Desc: Header file containing prototypes and definitions for all functions
- *       and types written in the 0x12-more_singly_linked_lists directory.
- */
-
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -40,4 +34,4 @@ size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 
-#endif /* LISTS_H */
+#endif
